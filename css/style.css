@@ -1,0 +1,25 @@
+body {
+  margin: 0; }
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+@media (min-width: 728px) {
+  .container {
+    width: 720px; } }
+@media (min-width: 952px) {
+  .container {
+    width: 940px; } }
+@media (min-width: 1056px) {
+  .container {
+    width: 1040px; } }
+.navbar {
+  min-height: 104px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #00bff3; }
+
+/*# sourceMappingURL=style.css.map */
