@@ -3,8 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <title>Aweb</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus commodi, ea tenetur autem dolores sed sint, nemo fuga omnis beatae cupiditate, veniam voluptates fugiat, quam velit suscipit! Similique at, temporibus!</p>
+    <header>
+
+    	<div class="navbar">
+            <div class="container">
+
+    	   	   <div class="brand">
+    	   	   	<a href="">
+    	   	   		<img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAALIAAAArCAMAAADrPSLRAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACu1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAD5pkqOAAAA53RSTlMADlibze355tCwil0kPFAoHZb145E1wIABc/bERgassVRwwa84Aq6OkHnwEx7435NlUldnptT8dVHiCQPs3BYfmTM6JV/Jd4s72tiaCCZhh6CNcT8HIEAU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" alt="SunTour">
+    	   	   		<span>Сеть турагенств<br>«Солнце в кругу»</span>                        
+    	   	   	</a>
+    	   	   </div>
+
+               <div class="contacts">
+                   <div class="phone">
+                       <p>044 123-45-67</p>
+                   </div>
+                   <div class="callback">
+                       <a href="#">обратнsый звонок</a>
+                   </div>
+               </div>
+
+               <div class="soc">
+                   <a href=""><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAMAAAAocOYLAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABmFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAADALfN6AAAAhnRSTlMABTx0mbCzq49mJySW7dZ1DBGY/WgBOuS6FFG0Y1BSuR9ImxK9FSHvLQNAfb4Q+GBtkCDwzHwwcfUP3n4Wk93OcDcdvLsGaygzSQqAfxfRxKwv66r7d8bhraNe7pG4G8lZeK9ksaJGlwQY1+dH7MVcYegyDgiCphxCZYfYpw2F91WBwl+GoN7Y7f4AAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAABqElEQVQoz3XT+1/SUBgG8IcQ8BopDMQgDRWBBCq0mkWpSCSKKF7IK0KJ96KrdlEr8/273dnOYAx8fjpn3332nr17B1RiuGVsMpktzS2taJC29g5Sc9t6R6edXTbSpsMuaNnhJH26XVXuuev26HLP2Nun8n2v0OBA/QODysI35K+VgCMY9AEPBgJsJwxTqNatUvlwCBF6yHYe0vsjdr7HkkcZjNzsNAo8oTp/Kl16JjIfE/Bc4y9iL6Ovxg3CRDA4CebkR7zqPqVLUwlly/w1nLInPW+AKd46KzDtSckeg032GZpFWm3tHJBRzkfzIO5uLKieBRa5m7DEfRniEvcVoJu7BTnub4FV7mswrHPfwCb38BbEvMwxYJv3h+wocKeigMS795mdEuDKqZ5EUnXa3eNt2s+r/T0AexXuNFJiHzRlP6z03yjtjypOdBwvfggrS+ZZeUzNkn/Uj19URJnKSrlPn4Evodp8Bb4V+dg5vgcazN9Jr6guT+OFiC4/fm4OVu/1/6qb/99n2oelzi9qNPdHXy79d6yi/y4TjX7RZPm/96p9tEdTGNdjctZNpZB7pgAAAABJRU5ErkJggg==" alt="Instagram"></a>
+                   <a href=""><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAMAAAAocOYLAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB5lBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAAZnQEdAAAAoHRSTlMABTx0mbCzq49mJySW7dZ1DBGY/WgBOuS6FFH5u4FdUNofSPqXM4lKkMDcFSHvaRPncZq9A76oZ/wmCeptgI2f8BDM+wLRfDCpxN5+Qs/fGvUtvMk19n8Pymu1GSyvYhvVC2Pdk/e0jmEgrIXyh7YOruGRuCmgeASD2yUo+CKnlNd3R+mMxutGGOg7evN9LvFwVXukcojO2A0KF8JfBoabJ5lgWgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAH1SURBVCjPbZN5WxMxEMZfjqUegEq7iChQxUK1Wg6rgApuRapFlNuicgharXIIKEUth6KieAGeqID5qOxkN2nsw/yxM5lfMknenQDS0tIzMrUsx46du7CN7c7OYcJy9+xNofvynEy1HJeu4vz9LNUKDiRx4UHKOA8VFZeQOfgE92GBj5TS+KinLK8c8HiP2RWO+yx84iSN/BWV5rcKqJZbnAoQ1k9TfAY15GrrcPacnHCeeAkPPajnvgG4ILkRNPlFihovoYqnmoCy5CVCwGUeOAPwWEuAK+TD/MbNOq5aM1ugXyN/Ha1t5INenm5Hh8U709DVbfobkR6m8JsQyt26jd7qvv6BO6Sdpg0Oadpdxu5B6h69/yAGaBQ+tIQxSzyCqvmwfbgRw4iMGoapuoZGhY8Bj8eZur8DE5KO9DjMwnq9yifxxN59suupv2EqPg08Uyq6EOf++YuI9VfDPgTcSZ5AgtzMLObsjDuIeYlfmrcI87+HqMi9glfyDJMvkGrAa5F7g7ciXORtmkUyICSS5e/k8hiX6f0Sq/0A/eMnSpV+/rIocJ/dw/ndbLl/GoML/pXVuq/yIE0R0aAty4wtfYu7vv8omJHFf/qSDd7+i6Xa3Jr6QH4PR/+jE6up7+9PUbOkf9c3tnuiidjmv6nsUKGyMbYAHKtr1Ijz9TsAAAAASUVORK5CYII=" alt="Google Plus"></a>
+                   <a href=""><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAMAAAAocOYLAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABQVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAABuOdDmAAAAaXRSTlMABTx0mbCzq49mJySW7dZ1DBGY/WgBOuS6FFH57JVpYOLaH0j6qA3Q3BUh78u9A75UbVAW7vAQzOZ8MN5+LbzAgHhrk6z7oIeQ4ZG4KNfER+thGOiv9tEPQvFw987YpwqFVReBwl8Ghpsrm9xpAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAATJJREFUKM9902lTwjAQBuBFBDxAVCgqHvUE8b5QEdHiUYvWA2/F+87//wMmtdnETpv90nfzdCaZnQQAK9QUbo5EYy2tbeBT7fEE4dWR7PRoV3eKyJVIazJneoi3evsEZ/txeWBwSNf1YZpGRjmPjSNP5JyVPMuThT+emkaeCYFwMjvHsjYvNl0A2ckiy0vSoZZpn1zBtrhK+zXJ2f/rUl8C2CAeL0p9WYNNlZMKbPG4bRgG8yr9ou8ATs6Q5om+Cyml74no6xHY5zFvmiazA8uy0GNQU57/EI6Unoaq0m2wVX5M+xOFh2l/GuxnzjWNBnrdGcb5RYBfunc4c+Xr1zd8nLd37tI9rYabHwpi3pVH4q2nnPxAnl8a/7T26n1/b+9l1I/PL78nate/f8x4KSttDL9sPfODWA2uRgAAAABJRU5ErkJggg==" alt=""></a>
+               </div>
+
+    		</div>
+    	</div><!--navbar-->
+
+        <div class="main-container container">
+            
+            <div class="tour">
+                <div class="banner">
+                    <img src="" alt="">
+                    <div class="code">
+                        <p>Тур<br>в Созополь,<br>Болгария</p>
+                        <p>код тура</p>
+                        <p>3094119</p>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <div class="hotel">
+                        <h3>Aquamarine hotel</h3>                        
+                    </div>
+                    <div class="stars">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                    </div>
+                    <div class="price">
+                        <p>
+                            $256
+                        </p>
+                    </div>
+                    <div class="rating">
+                        <p>Оценка отеля</p>
+                        <p>45 отзывов</p>
+                        <div class="ball"></div>
+                        <div class="number"></div>
+                        <div class="eat"></div>
+                        <div class="service"></div>
+                        <div class="infrastructure"></div>
+                    </div>
+
+                </div>
+                
+                <div class="sun-days">
+                    <p>320</p>
+                    <p>солнечных дней в году</p>
+                </div>
+
+            </div><!--tour-->
+
+
+
+        </div>
+    </header>
+
 </body>
 </html>

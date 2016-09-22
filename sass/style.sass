@@ -1,1 +1,40 @@
-$background-color: #fff;
+$navbar-color: #00bff3
+$navbar-heigth: 104px
+
+$width-large: 1040px
+$width-desktop: 940px
+$width-tablet: 720px
+
+$padding-large: 8px
+$padding-desktop: 6px
+$padding-tablet: 4px
+
+//GENERAL STYLES:
+body
+	margin: 0
+
+.container
+	margin-right: auto
+	margin-left: auto
+	padding-left: $padding-large
+	padding-right: $padding-large
+
+@media (min-width: $width-tablet+$padding-tablet*2)
+	.container
+		width: $width-tablet
+	
+@media (min-width: $width-desktop+$padding-desktop*2)
+	.container
+		width: $width-desktop
+
+@media (min-width: $width-large+$padding-large*2)
+	.container
+		width: $width-large
+
+//HEADER STYLES:
+.navbar
+	min-height: $navbar-heigth
+	margin-right: auto
+	margin-left: auto
+	background: $navbar-color
+
